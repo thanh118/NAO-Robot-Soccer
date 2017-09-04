@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="bps_kick-8208f7">
+ <names>
+  <name lang="en_US">bps_Kick</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="bps_Kick">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
