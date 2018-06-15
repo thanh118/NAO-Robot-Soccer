@@ -4,9 +4,7 @@
 # Return: messages about the load, if it successes or failed or which proxys were loaded
 ###   
 
-
 from naoqi import ALProxy
-
 
 class Config:
     # default IP
@@ -154,17 +152,9 @@ class Config:
             return 0
 
     def getIP(self):
-        ###
-        # Summary: get the IP
-        # Parameters:self
-        # Return: IP
-        ###
+        
         return self.IP
 
     def getPort(self):
-        ###
-        # Summary: get the Port
-        # Parameters: self
-        # Return: Port
-        ###
+        
         return self.PORT
