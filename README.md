@@ -3,8 +3,18 @@
 
 Overview
 ---
-In this project, you will use Image processing and inverse kinematic to make robot play soccer. You will use the NAO API and NAO qi to detect the center of the ball and 
-estimate distance from the ball to the robot. 
+NAO is a 58 cm tall programmable humanoid robot with 25 degrees of freedom, i.e. 25 different motors that control the joints of the robot. NAO robot weights 4.3 kg and has a built-in Linux-based operating system (NAOqi OS). Latest version of
+NAO robots have a CPU Intel Atom 1.6 GHz, which introduces the challenge for programmers to develop the algorithms which would have lowest computational cost possible, so that even CPU of 1.6 GHz can handle the processing tasks. Each NAO robot has two cameras with maximum resolution of 1280x720, two infrared emitters and receivers, nine tactile sensors, sonar rangefinder, eight pressure sen-sors and four microphones. Development process of NAO robots began in 2004. Since then they have been widely used for research and educational purposes in universities and research centers all over the world. 
+
+In this project, you will use Image processing and inverse kinematic to make robot play soccer. You will use the NAO API and NAO qi to detect the center of the ball and estimate distance from the ball to the robot. 
+
+The project was written in Python. Use Nao behaviour include:
+* ALProxy::ALMotion
+* ALProxy::ALTextToSpeech
+* ALProxy::ALBehaviorManager
+* ALProxy::ALRedBallTracker
+* ALProxy::ALRedBallDetection
+* ALProxy::ALMemory
 
 
 After the model is trained, you will then try out your model on images of German traffic signs that you find on the web.
