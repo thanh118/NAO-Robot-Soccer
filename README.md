@@ -17,13 +17,13 @@ The project was written in Python. Use Nao behaviour include:
 * ALProxy::ALMemory
 
 Structure of code:
-1/ NAO_config.py: Set IP and PORT for the Robot, and test the connection of all Proxy on Nao, if there are some part not work --> return error!
-2/ NAO_controller.py: The set of main function to make NAO play soccer.
-3/ NAO_logger.py: Return log file for NAO robot.
-4/ NAO_motion.py: The set of functions to control NAO motion like stand up, run fast, kick ball...
-5/ NAO_sensor.py: The set of functions control NAO sensors(Ultrasound sensor, tactic_head sensor..)
-6/ NAO_main.py: main functions.
-7/ UI.py: Frontend for the app NAO_play soccer. Still developing.
+* 1/ NAO_config.py: Set IP and PORT for the Robot, and test the connection of all Proxy on Nao, if there are some part not work --> return error!
+* 2/ NAO_controller.py: The set of main function to make NAO play soccer.
+* 3/ NAO_logger.py: Return log file for NAO robot.
+* 4/ NAO_motion.py: The set of functions to control NAO motion like stand up, run fast, kick ball...
+* 5/ NAO_sensor.py: The set of functions control NAO sensors(Ultrasound sensor, tactic_head sensor..)
+* 6/ NAO_main.py: main functions.
+* 7/ UI.py: Frontend for the app NAO_play soccer. Still developing.
 
 In general, this project is make NAO robot looking, define red ball position in any positon in the room, aim it!, walking to it, then found the goal position by walking around, then shoot the ball the goal. The all project was written in Python, if user want to use the code, just download code, change the IP and PORT of your robot, then run the NAO_main.py.
 
